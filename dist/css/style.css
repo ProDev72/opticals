@@ -1,0 +1,175 @@
+body{
+  overflow-x: hidden;
+}
+.quicklinks{
+  width: 100%;
+}
+.quicklinks .ul{
+  margin-top: 150px; 
+}
+.quicklinks .ul .li{
+  list-style: none;
+}
+.quicklinks .ul .li a{
+  color:#6b6767;
+  font-size: 35px;
+  background: #ececec;
+  border:1px solid #ececce;
+  padding: 30px;
+}
+.quicklinks .ul .li a:hover{
+  text-decoration: none;
+  border:1px solid #b9b9a7;
+  cursor: pointer;
+}
+#timestamp{
+    width: 83px;
+    left: 48.5%;
+    top: 26%;
+    font-weight: bold;
+    position: absolute;
+    color: #777777;
+}
+/***** Modal *****/
+.modal-header,.modal-footer{
+  background: #337ab7 !important;
+  color: #fff;
+}
+.form-control{
+  border-radius: 1px !important;
+}
+/****** Invoice Data *******/
+html{
+  zoom:90%;
+}
+.fetched-data{
+  float: right;
+  border-bottom: 1px solid #ececec;
+  width: 130px;
+  text-align:center;
+  font-weight: normal;
+  font-size: 12px;
+}
+p.fetched-data.descr{
+  width: 300px !important;
+}
+td.narrow{
+  padding: 4px !important;
+}
+table.invoice-slip tr td{
+   font-weight: bold;
+
+}
+.content{
+  border-color: #337ab7;
+  border-width: 10px;
+  border-style: double;
+  padding: 20px;
+  color:#337ab7;
+  width: 848px;
+}
+.wrapper{
+  width: 848px;
+  margin-top: 60px;
+}
+.left-logo{
+  font-size: 60px;
+  font-weight: bold;
+}
+.second-logo{
+  margin-top: -100px;
+}
+.con-2{
+  display: none;
+}
+.right-logo{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.urdu-tagline{
+  background: #337ab7;
+  color: #fff;
+  width: 370px;
+  text-align: center;
+  padding:2px 3px;
+  border-radius:15px;
+}
+.cond{
+  font-size: 11px !important;
+}
+.left-note{
+  font-size: 15px !important;
+}
+.no-display{
+  display: none;
+}
+.report-heading{
+display: none;
+text-align: center;
+}
+/* Printing Invoice */
+@media only print{
+.content{
+  color:#337ab7 !important;
+  width: 100%;
+}
+.con-2{
+  display: block;
+  margin-top: 20px;
+}
+p.urdu-tagline{
+  background: #337ab7 !important;
+  color: #fff !important;
+  width: 370px !important;
+  text-align: center !important;
+  padding:2px 3px !important;
+  border-radius:15px !important;
+}
+* {
+  color: #337ab7 !important;
+}
+.no-print{
+  visibility: hidden;
+}
+.no-display{
+  display: block;
+}
+.print,.report-heading{
+  visibility: show;
+  display: block;
+ }
+.dataTables_filter,.dataTables_length,.dataTables_info,.dataTables_paginate,.nav-tabs{
+ visibility: hidden;
+}
+}
+
+/******** Login Page *********/
+.login-body{
+  background: url(../img/bg.jpeg);
+}
+.login-wrapper{
+  width: 400px;
+  padding: 30px 50px;
+  background: rgba(255,255,255,0.75);
+  margin-top: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+
+}
+/******** Data Tables ********/
+.scroll-table{
+  overflow-x: scroll;
+  height: 200px;
+}
+.table{
+  border:1px solid #dddddd;
+}
+div#data-table_filter,div#data-table2_filter,div#data-table3_filter,div#data-table4_filter,div#data-table5_filter{
+  float: right;
+  padding-bottom: 40px;
+}
+.dataTables_info{
+  margin-top: 25px;
+}
